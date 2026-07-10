@@ -1,4 +1,14 @@
-# kotoba-lang/webgpu-rs — MOVED
+# kotoba-lang/webgpu-rs
 
-2026-07-02: このリポジトリは [kotoba-lang/webgpu](https://github.com/kotoba-lang/webgpu) に統合された (owner 指示)。
-`kotoba.webgpu-rs.*` namespaces はそのまま webgpu repo の `src/kotoba/webgpu_rs*` に住む。
+**SSoT for `kotoba.webgpu-rs.*`** — pure-CLJC port of the retired Rust
+`kami-webgpu-rs` CPU-side domain (render-IR parse, mat4, geometry, demo scene, …).
+
+This is **not** the browser WebGPU executor (`kotoba-lang/webgpu` / `kami.webgpu`).
+ADR-2607102200 addendum 8 restored this package as the home after a temporary
+merge into webgpu.
+
+## Test
+
+```sh
+clojure -M:test
+```
