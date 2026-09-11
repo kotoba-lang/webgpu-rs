@@ -25,5 +25,5 @@ expander yet; equivalence is proven first.
 ## Test
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
